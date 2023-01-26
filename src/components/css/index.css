@@ -1,0 +1,12 @@
+@tailwind base;
+@import './layout.css';
+@import './typography.css';
+@tailwind components;
+@tailwind utilities;
+
+
+
+body {
+  margin: 0;
+  @apply bg-[#153084] ;
+}
