@@ -1,5 +1,5 @@
 
-import './App.css';
+import './components/css/index.css';
 import Header from './components/Header';
 import HomeIntro from './components/home/Intro';
 
@@ -7,7 +7,7 @@ function App() {
   return (
 
     <section>
-      <Header/>
+      {/* <Header/> */}
 
       <HomeIntro/>
     </section>

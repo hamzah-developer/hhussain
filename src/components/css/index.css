@@ -1,6 +1,9 @@
 @tailwind base;
+@import './layout.css';
 @tailwind components;
 @tailwind utilities;
+
+
 
 body {
   margin: 0;
