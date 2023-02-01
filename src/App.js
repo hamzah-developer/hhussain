@@ -8,7 +8,6 @@ function App() {
 
     <section>
       {/* <Header/> */}
-
       <HomeIntro/>
     </section>
     
