@@ -1,1 +1,0 @@
-# Hi I'm Hamza Hussain a junior software developer, this here is my personal website where i showcase my skills and work i have done. I decided to build my portfolio in react as it is a framework ive been deeply instrested in and therefore decided what better place to use it then on my own personal portfolio!
