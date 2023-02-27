@@ -582,7 +582,7 @@ video {
 .copy-lg {
   font-family: Satoshi, Segoe UI, Helvetica Neue, Arial, Noto Sans, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji, -apple-system, sans-serif;
   font-weight: 300;
-  font-size: 17px;
+  font-size: 20px;
 }
 
 @media (min-width: 560px) {
@@ -687,34 +687,6 @@ video {
   font-display: swap;
 }
 
-@responsive {
-  .container {
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-
-  @media (min-width: 560px) {
-    .container {
-      padding-left: 40px;
-      padding-right: 40px;
-    }
-  }
-
-  @media (min-width: 1025px) {
-    .container {
-      padding-left: 60px;
-      padding-right: 60px;
-    }
-  }
-
-  .container {
-    max-width: 1500px;
-  }
-}
-
 .row {
   margin-left: -18px;
   margin-right: -18px;
@@ -753,10 +725,10 @@ video {
   justify-content: center;
 }
 
-.space-x-15 > :not([hidden]) ~ :not([hidden]) {
+.space-x-25 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 0;
-  margin-right: calc(15px * var(--tw-space-x-reverse));
-  margin-left: calc(15px * calc(1 - var(--tw-space-x-reverse)));
+  margin-right: calc(25px * var(--tw-space-x-reverse));
+  margin-left: calc(25px * calc(1 - var(--tw-space-x-reverse)));
 }
 
 .bg-blue {
@@ -835,16 +807,6 @@ video {
     --tw-space-x-reverse: 0;
     margin-right: calc(50px * var(--tw-space-x-reverse));
     margin-left: calc(50px * calc(1 - var(--tw-space-x-reverse)));
-  }
-}
-
-@media (max-width: 1024px) {
-  .xl-max\:mt-\[8px\] {
-    margin-top: 8px;
-  }
-
-  .xl-max\:block {
-    display: block;
   }
 }
 
