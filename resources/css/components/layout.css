@@ -1,0 +1,15 @@
+@responsive {
+  .container {
+    @apply mx-auto px-20 md:px-40 xl:px-60 w-full;
+
+    max-width: 1500px;
+  }
+}
+
+.row {
+  @apply mx-[-18px];
+}
+
+.column {
+  @apply px-[18px];
+}

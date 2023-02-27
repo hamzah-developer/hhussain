@@ -1,0 +1,104 @@
+@font-face {
+  font-family: 'Satoshi';
+  src: url('../../../assets/font/Satoshi-Regular.woff2') format('woff2'),
+    url('../../../assets/font/Satoshi-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Satoshi';
+  src: url('../../../assets/font/Satoshi-Medium.woff2') format('woff2'),
+    url('../../../assets/font/Satoshi-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Satoshi';
+  src: url('../../../assets/font/Satoshi-Light.woff2') format('woff2'),
+    url('../../../assets/font/Satoshi-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Satoshi';
+  src: url('../../../assets/font/Satoshi-Bold.woff2') format('woff2'),
+    url('../../../assets/font/Satoshi-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@layer components {
+
+.heading-xl {
+  @apply font-satoshi uppercase;
+  @apply text-[45px] md:text-[72px] xl:text-[100px];
+  @apply leading-[43px] md:leading-[66px] xl:leading-[90px];
+}
+
+.heading-lg {
+  @apply font-satoshi uppercase;
+  @apply text-[35px] md:text-[52px] xl:text-[70px];
+  @apply leading-[35px] md:leading-[52px] xl:leading-[70px];
+}
+
+.heading-md {
+  @apply font-satoshi uppercase;
+  @apply text-[30px] md:text-[35px] xl:text-[40px];
+  @apply leading-[32px] md:leading-[36px] xl:leading-[40px];
+}
+
+.heading {
+  @apply font-satoshi uppercase;
+  @apply text-[23px] md:text-[24px] xl:text-[25px];
+  @apply leading-[25px] md:leading-[26px];
+}
+
+.heading-sm {
+  @apply font-satoshi uppercase;
+  @apply text-[18px];
+  @apply leading-[20px];
+}
+
+.heading-xs {
+  @apply font-satoshi uppercase;
+  @apply text-[14px];
+  @apply leading-[16px];
+}
+
+.copy-lg {
+  @apply font-satoshi xl:font-bold;
+  @apply text-[20px] md:text-[22px] xl:text-[23px];
+  @apply leading-[25px] md:leading-[28px] xl:leading-[30px];
+}
+
+.copy-md {
+  @apply font-satoshi;
+  @apply text-[18px] md:text-[19px] xl:text-[20px];
+  @apply leading-[26px] md:leading-[28px] xl:leading-[30px];
+}
+
+.copy-md--alt {
+  @apply font-satoshi;
+  @apply text-[16px];
+  @apply leading-[20px];
+}
+
+.copy-sm {
+  @apply font-satoshi;
+  @apply text-[15px] md:text-[16px];
+  @apply leading-[20px] md:leading-[26px];
+}
+
+.copy-sm--alt {
+  @apply font-satoshi;
+  @apply text-[12px];
+  @apply leading-[14px];
+}
+}
