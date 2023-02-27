@@ -1,0 +1,23 @@
+@layer components {
+  .default-transition {
+    transition: all 1s cubic-bezier(0.19, 1, 0.22, 1);
+  }
+
+  .swipe-underline {
+    @apply w-full inline bg-no-repeat break-words;
+
+    transition: background-size 0.25s ease-in-out;
+    background-position: right;
+    background-size: 0% 100%;
+    background-image: linear-gradient(
+        transparent 95%, theme('colors.white') 0.8em
+    );
+
+
+  }
+
+  .swipe-underline:hover {
+    background-size: 100% 100%;
+    background-position: left;
+  }
+}
