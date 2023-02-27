@@ -545,45 +545,72 @@ video {
   }
 }
 
-.heading-xl {
+.heading-lg {
   font-family: Satoshi, Segoe UI, Helvetica Neue, Arial, Noto Sans, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji, -apple-system, sans-serif;
-  text-transform: uppercase;
-  font-size: 45px;
+  font-weight: 700;
+  font-size: 28px;
 }
 
 @media (min-width: 560px) {
-  .heading-xl {
-    font-size: 72px;
+  .heading-lg {
+    font-size: 60px;
   }
 }
 
 @media (min-width: 1025px) {
-  .heading-xl {
-    font-size: 100px;
+  .heading-lg {
+    font-size: 70px;
   }
 }
 
-.heading-xl {
-  line-height: 43px;
+.heading-lg {
+  line-height: 28px;
 }
 
 @media (min-width: 560px) {
-  .heading-xl {
-    line-height: 66px;
+  .heading-lg {
+    line-height: 60px;
   }
 }
 
 @media (min-width: 1025px) {
-  .heading-xl {
-    line-height: 90px;
+  .heading-lg {
+    line-height: 70px;
   }
 }
 
-.heading-xs {
+.copy-lg {
   font-family: Satoshi, Segoe UI, Helvetica Neue, Arial, Noto Sans, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji, -apple-system, sans-serif;
-  text-transform: uppercase;
-  font-size: 14px;
-  line-height: 16px;
+  font-weight: 300;
+  font-size: 17px;
+}
+
+@media (min-width: 560px) {
+  .copy-lg {
+    font-size: 22px;
+  }
+}
+
+@media (min-width: 1025px) {
+  .copy-lg {
+    font-size: 23px;
+  }
+}
+
+.copy-lg {
+  line-height: 20px;
+}
+
+@media (min-width: 560px) {
+  .copy-lg {
+    line-height: 28px;
+  }
+}
+
+@media (min-width: 1025px) {
+  .copy-lg {
+    line-height: 30px;
+  }
 }
 
 @font-face {
@@ -638,6 +665,34 @@ video {
   font-display: swap;
 }
 
+@responsive {
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  @media (min-width: 560px) {
+    .container {
+      padding-left: 40px;
+      padding-right: 40px;
+    }
+  }
+
+  @media (min-width: 1025px) {
+    .container {
+      padding-left: 60px;
+      padding-right: 60px;
+    }
+  }
+
+  .container {
+    max-width: 1500px;
+  }
+}
+
 .row {
   margin-left: -18px;
   margin-right: -18px;
@@ -648,8 +703,8 @@ video {
   padding-right: 18px;
 }
 
-.mb-10 {
-  margin-bottom: 10px;
+.mb-15 {
+  margin-bottom: 15px;
 }
 
 .flex {
@@ -671,10 +726,6 @@ video {
 
 .text-center {
   text-align: center;
-}
-
-.uppercase {
-  text-transform: uppercase;
 }
 
 .text-\[\#7348E5\] {
@@ -723,8 +774,18 @@ video {
 }
 
 @media (min-width: 1025px) {
-  .xl\:mb-15 {
-    margin-bottom: 15px;
+  .xl\:mb-25 {
+    margin-bottom: 25px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .xl-max\:mt-\[8px\] {
+    margin-top: 8px;
+  }
+
+  .xl-max\:block {
+    display: block;
   }
 }
 

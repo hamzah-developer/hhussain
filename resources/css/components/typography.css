@@ -43,9 +43,9 @@
 }
 
 .heading-lg {
-  @apply font-satoshi uppercase;
-  @apply text-[35px] md:text-[52px] xl:text-[70px];
-  @apply leading-[35px] md:leading-[52px] xl:leading-[70px];
+  @apply font-satoshi font-bold;
+  @apply text-[28px] md:text-[60px] xl:text-[70px];
+  @apply leading-[28px] md:leading-[60px] xl:leading-[70px];
 }
 
 .heading-md {
@@ -73,9 +73,9 @@
 }
 
 .copy-lg {
-  @apply font-satoshi xl:font-bold;
-  @apply text-[20px] md:text-[22px] xl:text-[23px];
-  @apply leading-[25px] md:leading-[28px] xl:leading-[30px];
+  @apply font-satoshi font-light;
+  @apply text-[17px] md:text-[22px] xl:text-[23px];
+  @apply leading-[20px] md:leading-[28px] xl:leading-[30px];
 }
 
 .copy-md {
